@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://launch.getgo.com/builds/launcher/539/GoToOpenerMultiUser.msi'
-$checksum   = 'b876f33421cb72d31ec9fb4b9fa492170cc0bb6f7d58ab1384f710db5ba10ad1'
+$url        = 'https://launch.getgo.com/launcher2/latest/GoToOpenerMultiUser.msi'
+$checksum   = '68342f0421817feadaf2b1ccf58899117459e4e91e4718dbad3c346dbcd36195'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
